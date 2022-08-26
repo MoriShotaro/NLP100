@@ -33,10 +33,9 @@ library(data.table)
 文字列”stressed”の文字を逆に（末尾から先頭に向かって）並べた文字列を得よ．
 
 ``` {r}
-"stressed" %>%
-  str_split("") %>%
-  rev()
-
+"stressed" %>% 
+  str_split("") %>% 
+  as.vector()
 ```
 
 ### 01. 「パタトクカシーー」
